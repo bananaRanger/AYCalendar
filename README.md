@@ -9,15 +9,15 @@
   <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
 </p>
 
+## About
+
+Customizable calendar view controller with navigation through the months.
+
 ### Demo
 
 <p align="center">
   <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/preview.png?raw=true">
 </p>
-
-## About
-
-Customizable calendar view controller with navigation through the months.
 
 <p align="center">
   <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
