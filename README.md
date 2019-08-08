@@ -23,9 +23,9 @@ Customizable calendar view controller with navigation through the months.
   <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
 </p>
 
-<p align="center">
-  <img width="2028" height="2028" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
 
+<p align="center">
+  <img width="216" height="417" src="https://github.com/bananaRanger/SheetViewController/blob/master/Resources/demo.mov?raw=true">
 </p>
 
 
