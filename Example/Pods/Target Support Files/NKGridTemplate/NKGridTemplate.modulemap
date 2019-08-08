@@ -1,0 +1,6 @@
+framework module NKGridTemplate {
+  umbrella header "NKGridTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

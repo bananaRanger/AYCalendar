@@ -1,0 +1,6 @@
+framework module AYCalendar {
+  umbrella header "AYCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

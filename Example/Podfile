@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'AYCalendar_Example' do
+  pod 'AYCalendar', :path => '../'
+
+  pod 'NKGridTemplate', '~> 0.1.0.1'
+  pod 'NKSlideScreensTemplate', '~> 0.1.0'
+
+  target 'AYCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_AYCalendar_Tests {
+  umbrella header "Pods-AYCalendar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

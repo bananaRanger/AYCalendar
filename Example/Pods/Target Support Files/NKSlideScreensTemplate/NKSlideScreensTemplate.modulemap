@@ -1,0 +1,6 @@
+framework module NKSlideScreensTemplate {
+  umbrella header "NKSlideScreensTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

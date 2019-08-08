@@ -1,0 +1,6 @@
+framework module Pods_AYCalendar_Example {
+  umbrella header "Pods-AYCalendar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module NKAnyViewModel {
+  umbrella header "NKAnyViewModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
