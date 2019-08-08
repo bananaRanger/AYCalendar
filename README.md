@@ -5,9 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 [![Platform](https://img.shields.io/cocoapods/p/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 
+<p align="center">
+  <img width="832" height="228" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
+</p>
+
 ## About
 
 Customizable calendar view controller with navigation through the months.
+
+<p align="center">
+  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
+</p>
 
 ## Example
 
