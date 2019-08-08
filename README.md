@@ -5,13 +5,29 @@
 [![License](https://img.shields.io/cocoapods/l/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 [![Platform](https://img.shields.io/cocoapods/p/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 
+<p align="center">
+  <img width="832" height="228" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
+</p>
+
+### Demo
+
+<p align="center">
+  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/preview.png?raw=true">
+</p>
+
 ## About
 
 Customizable calendar view controller with navigation through the months.
 
-## Example
+<p align="center">
+  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
+</p>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+<p align="center">
+  <img width="216" height="417" src="https://github.com/bananaRanger/SheetViewController/blob/master/Resources/demo.mov?raw=true">
+</p>
+
 
 ## Requirements
 
