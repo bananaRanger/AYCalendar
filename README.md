@@ -6,13 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 
 <p align="center">
-  <img width="832" height="228" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
+  <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
 </p>
 
 ### Demo
 
 <p align="center">
-  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/preview.png?raw=true">
+  <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/preview.png?raw=true">
 </p>
 
 ## About
@@ -20,17 +20,11 @@
 Customizable calendar view controller with navigation through the months.
 
 <p align="center">
-  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo2.mov?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo3.mov?raw=true">
 </p>
 
-
-<p align="center">
-  <img width="280" height="280" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
-  <img width="280" height="280" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo2.mov?raw=true">
-  <img width="280" height="280" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo3.mov?raw=true">
-</p>
-
-## Requirements
 
 ## Installation
 
@@ -45,6 +39,28 @@ target 'YOUR_TARGET_NAME' do
 	pod 'AYCalendar'
 end
 ```
+
+## Usage
+
+```swift
+// 'calendarDelegate' - object that conform to protocol 'AYCalendarDelegate'.
+// 'calendarUIDelegate' - object that conform to protocol 'AYCalendarUIDelegate'.
+// 'calendarDataSource' - object that conform to protocol 'AYCalendarDataSource'.
+
+let calendar = AYCalendarViewController()
+
+calendar.delegate = calendarDelegate
+calendar.uiDelegate = calendarUIDelegate
+calendar.dataSource = calendarDataSource
+
+present(calendar, animated: true, completion: nil)
+```
+
+#### AYCalendarUIDelegate
+
+<p align="center">
+  <img width="100%" height="100%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
+</p>
 
 ## Author
 
