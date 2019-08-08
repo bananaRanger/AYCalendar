@@ -22,7 +22,7 @@ pod 'AYCalendar'
 
 ## Author
 
-antonyereshchenko@gmail.com, anton.ereshchenko@powercode.us
+Anton Yereshchenko
 
 ## License
 

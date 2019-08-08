@@ -1,102 +1,90 @@
+// MIT License
 //
-//  ViewController.swift
-//  AYCalendar
+// Copyright (c) 2019 Anton Yereshchenko
 //
-//  Created by antonyereshchenko@gmail.com on 08/08/2019.
-//  Copyright (c) 2019 antonyereshchenko@gmail.com. All rights reserved.
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
 
 import UIKit
 import AYCalendar
 
 class ViewController: UIViewController {
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-
-  }
-  
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    let vc = AYCalendarViewController()
-    vc.delegate = self
-    vc.uiDelegate = self
-    vc.dataSource = self
-    
-    vc.calendarSlides.backgroundColor = .white
-    
-//    vc.monthNavigationView?.backgroundColor = .darkText
-//    vc.monthNavigationView?.lblText.textColor = .white
-//    vc.monthNavigationView?.btnPrev.backgroundColor = .white
-//    vc.monthNavigationView?.btnNext.backgroundColor = .white
-
-//    vc.monthNavigationView?.layer.shadowColor = UIColor.white.cgColor
-//    vc.monthNavigationView?.layer.cornerRadius = 8
-//    vc.monthNavigationView?.layer.shadowRadius = 10
-//    vc.monthNavigationView?.layer.shadowOpacity = 0.1
-//
-//    vc.calendarSlides.layer.shadowColor = UIColor.white.cgColor
-//    vc.calendarSlides.layer.cornerRadius = 8
-//    vc.calendarSlides.layer.shadowRadius = 10
-//    vc.calendarSlides.layer.shadowOpacity = 0.25
-//
-    present(vc, animated: true, completion: nil)
-  }
-  
   var cellBack = UIColor(red: 242.0/255.0, green: 163.0/255.0, blue: 181.0/255.0, alpha: 1.0)
   var cellText = UIColor(red: 237.0/255.0, green: 107.0/255.0, blue: 134.0/255.0, alpha: 1.0)
   var cellBadge = UIColor.white
-  
-  /*
-   back:  UIColor(red: 242.0/255.0, green: 163.0/255.0, blue: 181.0/255.0, alpha: 1.0)
-   text:  UIColor(red: 237.0/255.0, green: 107.0/255.0, blue: 134.0/255.0, alpha: 1.0)
-   badge: .white
-   */
-  
-  /*
-   back:  UIColor(red: 170.0/255.0, green: 220.0/255.0, blue: 250.0/255.0, alpha: 1.0)
-   text:  UIColor(red: 237.0/255.0, green: 107.0/255.0, blue: 134.0/255.0, alpha: 1.0)
-   badge: UIColor(red: 133.0/255.0, green: 183.0/255.0, blue: 250.0/255.0, alpha: 1.0)
-   */
-  
-  /*
-   back:  UIColor(red: 255.0/255.0, green: 250.0/255.0, blue: 170.0/255.0, alpha: 1.0)
-   text:  UIColor(red: 114.0/255.0, green: 178.0/255.0, blue: 250.0/255.0, alpha: 1.0)
-   badge: UIColor(red: 240.0/255.0, green: 143.0/255.0, blue: 126.0/255.0, alpha: 1.0)
-   */
-  
+
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    let calendar = AYCalendarViewController()
+
+    calendar.delegate = self
+    calendar.uiDelegate = self
+    calendar.dataSource = self
+    
+    calendar.monthNavigationView?.backgroundColor = .black
+    calendar.monthNavigationView?.lblText.textColor = .white
+    calendar.monthNavigationView?.btnNext.backgroundColor = .white
+    calendar.monthNavigationView?.btnPrev.backgroundColor = .white
+    
+    calendar.monthNavigationView?.layer.cornerRadius = 8
+    calendar.monthNavigationView?.layer.shadowRadius = 10
+    calendar.monthNavigationView?.layer.shadowOpacity = 0.32
+    
+    calendar.calendarSlides.backgroundColor = .white
+    
+    calendar.calendarSlides.layer.shadowColor = UIColor.white.cgColor
+    calendar.calendarSlides.layer.cornerRadius = 8
+    calendar.calendarSlides.layer.shadowRadius = 10
+    calendar.calendarSlides.layer.shadowOpacity = 0.25
+    
+    present(calendar, animated: true, completion: nil)
+  }
 }
 
 extension ViewController: AYCalendarUIDelegate, AYCalendarDelegate, AYCalendarDataSource {
   
-//  func monthContentInsets() -> UIEdgeInsets {
-//    return UIEdgeInsets(top: 16, left: 16, bottom: 0, right: 16)
-//  }
-//
-//  func padding() -> CGFloat {
-//    return 32
-//  }
+  func monthContentInsets() -> UIEdgeInsets {
+    return UIEdgeInsets(top: 16, left: 16, bottom: 0, right: 16)
+  }
   
-//  func selectedDayTextColor() -> UIColor {
-//    return cellText
-//  }
-//
-//  func selectedDayBackgorundColor() -> UIColor {
-//    return cellBack
-//  }
+  func padding() -> CGFloat {
+    return 32
+  }
   
-//  func badgeBackgorundColor() -> UIColor {
-//    return .black
-//  }
-//  
-//  func badgeSelectedBackgorundColor() -> UIColor {
-//    return .white
-//  }
+  func selectedDayTextColor() -> UIColor {
+    return cellText
+  }
   
-//  func backgorundColor() -> UIColor {
-//    return cellBack//.groupTableViewBackground
-//  }
+  func selectedDayBackgorundColor() -> UIColor {
+    return cellBack
+  }
+  
+  func badgeBackgorundColor() -> UIColor {
+    return cellBack
+  }
+  
+  func badgeSelectedBackgorundColor() -> UIColor {
+    return cellBadge
+  }
+  
+  func backgorundColor() -> UIColor {
+    return cellBack
+  }
   
   func badges() -> [Date] {
     return [Date(timeIntervalSince1970: 1566205810)]
@@ -106,17 +94,23 @@ extension ViewController: AYCalendarUIDelegate, AYCalendarDelegate, AYCalendarDa
     return 5
   }
   
-//  func dayFont() -> UIFont {
-//    return UIFont.systemFont(ofSize: 16, weight: .black)
-//  }
-  
-  
-  
-  func calendarDidPresent(with date: Date?) {
-    print("!")
+  func dayFont() -> UIFont {
+    return UIFont.systemFont(ofSize: 16, weight: .black)
   }
   
-  func didSelect(date: Date?) {
-    print("!!!")
+  func didSelect(date: Date?, on calendar: AYCalendarViewController) {
+    let alert = UIAlertController(
+      title: nil,
+      message: "You have selected \(date?.log ?? "-")",
+      preferredStyle: .actionSheet)
+    
+    let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+    alert.addAction(cancel)
+    calendar.present(alert, animated: true, completion: nil)
   }
+  
+  func didPresent(calendar: AYCalendarViewController, with date: Date?) {
+
+  }
+  
 }

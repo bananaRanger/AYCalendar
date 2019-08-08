@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AYCalendar
 
-Copyright (c) 2019 antonyereshchenko@gmail.com <anton.ereshchenko@powercode.us>
+Copyright (c) 2019 antonyereshchenko@gmail.com 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

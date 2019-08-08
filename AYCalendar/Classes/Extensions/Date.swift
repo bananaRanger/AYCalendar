@@ -137,7 +137,7 @@ extension Date {
   }
 }
 
-extension Date {
+public extension Date {
   var log: String {
     let formatter = DateFormatter()
     formatter.dateStyle = .short

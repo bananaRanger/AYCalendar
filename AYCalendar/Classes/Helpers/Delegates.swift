@@ -48,8 +48,8 @@ public protocol AYCalendarUIDelegate: class {
 
 //MARK: AYCalendarDelegate protocol
 public protocol AYCalendarDelegate: class {
-  func calendarDidPresent(with date: Date?)
-  func didSelect(date: Date?)
+  func didPresent(calendar: AYCalendarViewController, with date: Date?)
+  func didSelect(date: Date?, on calendar: AYCalendarViewController)
 }
 
 //MARK: AYCalendarDataSource protocol

@@ -167,11 +167,11 @@ extension AYCalendarViewController: AYMonthCalendarDelegate {
   }
   
   func didSelect(date: Date?) {
-    delegate?.didSelect(date: date)
+    delegate?.didSelect(date: date, on: self)
   }
   
   func calendarDidPresent(with date: Date?) {
-    delegate?.calendarDidPresent(with: date)
+    delegate?.didPresent(calendar: self, with: date)
     monthNavigationView?.lblText.text = date?.pretty
   }
 }
