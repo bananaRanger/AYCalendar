@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   Customizable calendar view controller with navigation through the months.
                        DESC
 
-  s.homepage         = 'https://github.com/antonyereshchenko@gmail.com/AYCalendar'
+  s.homepage         = 'https://github.com/bananaRanger/AYCalendar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anton Yereshchenko' => 'antonyereshchenko@gmail.com' }
