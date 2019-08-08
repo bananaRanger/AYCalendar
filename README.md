@@ -9,6 +9,12 @@
   <img width="832" height="228" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
 </p>
 
+### Demo
+
+<p align="center">
+  <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/preview.png?raw=true">
+</p>
+
 ## About
 
 Customizable calendar view controller with navigation through the months.
@@ -17,9 +23,11 @@ Customizable calendar view controller with navigation through the months.
   <img width="800" height="800" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/UIDelegate.png?raw=true">
 </p>
 
-## Example
+<p align="center">
+  <img width="2028" height="2028" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+</p>
+
 
 ## Requirements
 
