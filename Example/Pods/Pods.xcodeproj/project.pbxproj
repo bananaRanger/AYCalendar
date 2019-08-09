@@ -20,6 +20,8 @@
 		3BAD8054A2EEDD313783DEEBFF9D6092 /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253E569FE6623331C61C52573BD17EAF /* NKAnyViewModel.framework */; };
 		3D6ABEA1B5E98F24B9ED86B3E5091055 /* AYCalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C6C75CA8C4D41EDCBFF50FAE1225AF /* AYCalendarDataSource.swift */; };
 		3F9B75423D37D25E3A5D85A89F9C3296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE44E3D79F508ACD8BA716D9A2CB4E5 /* Foundation.framework */; };
+		40C0E15D22FD595400E446BB /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E15B22FD595400E446BB /* next.png */; };
+		40C0E15E22FD595400E446BB /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E15C22FD595400E446BB /* prev.png */; };
 		442AE14DDBD64DF9284D622BFEE43E2E /* AYMonthCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E8A7A642889D73362BEFD215A2F00 /* AYMonthCalendarViewController.swift */; };
 		52EC33F8D9C857D148A7AF26ADBAEFE1 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9697A27B32095C06870E4D57F19AA /* Delegates.swift */; };
 		618942625CE32CAAF552BC1E0A3A4627 /* AYCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578D8E656FEBAD61F8C0A9FBCF04ACCD /* AYCalendar-dummy.m */; };
@@ -116,7 +118,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0011FBE640AA5127A4D9C8989F7222B8 /* Pods_AYCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYCalendar_Example.framework; path = "Pods-AYCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0011FBE640AA5127A4D9C8989F7222B8 /* Pods_AYCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		043D9E8D0C0DD08D9F73C93FF8BDE335 /* AYCalendarTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarTitleCell.swift; sourceTree = "<group>"; };
 		0670625B7116217F7818D54029D046FD /* NKAnyViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKAnyViewModel-Info.plist"; sourceTree = "<group>"; };
 		119CCC8B28E14C3ABB3D1B575A78BA01 /* Pods-AYCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +127,7 @@
 		167745AA1761B035814D5E4A94EE9DFB /* AYCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYCalendar-Info.plist"; sourceTree = "<group>"; };
 		17ACEBBECCDAE3FEDE4AA2F1AA95D019 /* AYCalendarUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarUIDelegate.swift; sourceTree = "<group>"; };
 		18B4875528ACFEC45E876EC4DCC22217 /* AYMonthNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYMonthNavigationView.swift; sourceTree = "<group>"; };
-		18BD715D2C09761CEE6FCB6FC645D117 /* AYCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYCalendar.framework; path = AYCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BD715D2C09761CEE6FCB6FC645D117 /* AYCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3C5B0E4FDCA38B7043BA37DC70FEB /* AYCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYCalendar.modulemap; sourceTree = "<group>"; };
 		1B3F77F900E3B4EC449C72DC552B52DC /* Pods-AYCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D187687FD083AB4125F456A163946EF /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -136,7 +138,7 @@
 		2439E5CCBF8543E589C3FFF40818B11E /* AYCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYCalendar.xcconfig; sourceTree = "<group>"; };
 		253E569FE6623331C61C52573BD17EAF /* NKAnyViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKAnyViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		263BC853EDCACC6D596273072E88FB45 /* NKSlideScreensTemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKSlideScreensTemplate.modulemap; sourceTree = "<group>"; };
-		2D9CD2DB7805E8F877DA6E7FAF049D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2D9CD2DB7805E8F877DA6E7FAF049D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2E2532FA9BB00E3AEE62ADF027B4ACAD /* Pods-AYCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EF550054C6BE19991EE835056524D0E /* AYCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCalendar-prefix.pch"; sourceTree = "<group>"; };
 		2F79E3EDC14A95FB9A69CCD7C82AA8AA /* NKSlidesSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKSlidesSource.swift; path = NKSlideScreensTemplate/Classes/NKSlidesSource.swift; sourceTree = "<group>"; };
@@ -144,8 +146,11 @@
 		333CFC7921CE7C40C0BCBB2228274DC2 /* NKGridTemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKGridTemplate-dummy.m"; sourceTree = "<group>"; };
 		33C26882EC89D268D1C202DC3DC733A9 /* AYMonthCalendarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYMonthCalendarPresenter.swift; sourceTree = "<group>"; };
 		39D554FFD89CDD4843A7014910726FE3 /* AYCalendarSlidesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarSlidesPresenter.swift; sourceTree = "<group>"; };
-		3DB9ECDEE5C32A2708963D83C991B1F5 /* NKSlideScreensTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKSlideScreensTemplate.framework; path = NKSlideScreensTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB9ECDEE5C32A2708963D83C991B1F5 /* NKSlideScreensTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKSlideScreensTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3A6A0A88202C250E1D897C56D1732 /* NKGridViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKGridViewController.swift; path = NKGridTemplate/Classes/NKGridViewController.swift; sourceTree = "<group>"; };
+		40C0E15922FD592E00E446BB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		40C0E15B22FD595400E446BB /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		40C0E15C22FD595400E446BB /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
 		44973FA7E3BABE6EA0F4406B04C2FDE6 /* NKAnyViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKAnyViewModel.xcconfig; sourceTree = "<group>"; };
 		4549718DF96FB63EB816EA9A5BB79C79 /* Pods-AYCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AD3D674489AF0298C5CB9FB62D84D04 /* AYCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCalendar-umbrella.h"; sourceTree = "<group>"; };
@@ -156,22 +161,22 @@
 		5847CB6C2147DC5E3257C1C25CA5C41C /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		5A6C7E758A4FA2E9E0D60D00C6334D1E /* NKGridTemplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKGridTemplate-Info.plist"; sourceTree = "<group>"; };
 		6160F1838E566226019ABAD91A51384E /* Pods-AYCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		668B2E10D0DCE7DCF3F7F08A134C8818 /* AYCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AYCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		668B2E10D0DCE7DCF3F7F08A134C8818 /* AYCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		697B483B86538785DE2708280D3AEBD9 /* NKGridTemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKGridTemplate-umbrella.h"; sourceTree = "<group>"; };
 		6B956B623BBCAF33F678440A3A5577B1 /* NKAnyViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKAnyViewModel-dummy.m"; sourceTree = "<group>"; };
 		6EE44E3D79F508ACD8BA716D9A2CB4E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		72D23D8AB912A29B9AEA02012CC74159 /* AYDateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYDateManager.swift; sourceTree = "<group>"; };
 		7DDE74F973195979E2D4E2C96174CFAB /* Pods-AYCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCalendar_Example.modulemap"; sourceTree = "<group>"; };
-		7E4D037A07580CDA5A3EAFABC0941CA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E4D037A07580CDA5A3EAFABC0941CA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		805EE9E122890687666A226576A4249C /* AYCalendarSlidesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarSlidesViewController.swift; sourceTree = "<group>"; };
 		851D163187B95352AD4D54E7AA1A3CEC /* NSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		8D80F331C9B0E42D2407FBA8DACE1574 /* Pods-AYCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E9A236513BB8409AE3CAF224E882949 /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8F826F39A537C862529689510BE8123D /* NKSlideScreensTemplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKSlideScreensTemplate-Info.plist"; sourceTree = "<group>"; };
-		93AFC71F947E100BFBC2D0BFB6B897DD /* NKAnyViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKAnyViewModel.framework; path = NKAnyViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFC71F947E100BFBC2D0BFB6B897DD /* NKAnyViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKAnyViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94776CDF15D548546FF856476B311AFA /* NKGridViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKGridViewable.swift; path = NKGridTemplate/Classes/NKGridViewable.swift; sourceTree = "<group>"; };
 		95D9697A27B32095C06870E4D57F19AA /* Delegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A67AC9E5C81D5DD29177413AD43668F0 /* AYCalendarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarViewController.swift; sourceTree = "<group>"; };
 		ADA280B9636626A8D9E25962554FC4F1 /* Pods-AYCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B79DD4167287329E05409C53AD2227D8 /* Pods-AYCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -189,12 +194,12 @@
 		D920787D35A24910920A569F71C33323 /* Pods-AYCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC5E2930DEDE9718FEFBC717FF5C876A /* Pods-AYCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DDF18D797A33CDD2A1D3F3B5BDBE8DDC /* NKSlideScreensTemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKSlideScreensTemplate-dummy.m"; sourceTree = "<group>"; };
-		E02C5E3B6E71049246954939E88864B9 /* Pods_AYCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYCalendar_Tests.framework; path = "Pods-AYCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02C5E3B6E71049246954939E88864B9 /* Pods_AYCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39F659BABA2F7D0F132C405B3F8C9ED /* NKGridTemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKGridTemplate-prefix.pch"; sourceTree = "<group>"; };
 		E54005647A08171760ED730917B1B63B /* NKSlideScreenDisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKSlideScreenDisplay.swift; path = NKSlideScreensTemplate/Classes/NKSlideScreenDisplay.swift; sourceTree = "<group>"; };
 		E572B3E6656D1B627CFE9CAADD0E3832 /* AYMonthNavigationView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AYMonthNavigationView.xib; sourceTree = "<group>"; };
 		F436E08D90CA1CD049577E2ACBF9E9EB /* AYCalendarItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarItemCell.swift; sourceTree = "<group>"; };
-		F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKGridTemplate.framework; path = NKGridTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKGridTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F880087D45A768B12573B870E71D1E06 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = NKGridTemplate/Classes/Extensions/UICollectionView.swift; sourceTree = "<group>"; };
 		F9C6C75CA8C4D41EDCBFF50FAE1225AF /* AYCalendarDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,7 +265,6 @@
 				33C26882EC89D268D1C202DC3DC733A9 /* AYMonthCalendarPresenter.swift */,
 				C13E8A7A642889D73362BEFD215A2F00 /* AYMonthCalendarViewController.swift */,
 			);
-			name = AYMonthCalendar;
 			path = AYMonthCalendar;
 			sourceTree = "<group>";
 		};
@@ -326,6 +330,24 @@
 			path = "Target Support Files/Pods-AYCalendar_Tests";
 			sourceTree = "<group>";
 		};
+		40C0E15822FD592E00E446BB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E15A22FD595400E446BB /* Images */,
+				40C0E15922FD592E00E446BB /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		40C0E15A22FD595400E446BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E15B22FD595400E446BB /* next.png */,
+				40C0E15C22FD595400E446BB /* prev.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		42450ADB9822061AF0A475B4B9D52DDD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,7 +387,6 @@
 			children = (
 				A67AC9E5C81D5DD29177413AD43668F0 /* AYCalendarViewController.swift */,
 			);
-			name = AYCalendar;
 			path = AYCalendar;
 			sourceTree = "<group>";
 		};
@@ -410,7 +431,6 @@
 				32DBD6E0A66CD9BD7A963C04057709A2 /* NKAnyViewModel.swift */,
 				E6ED5CD38159EC0EF06DD4C3DED8E31C /* Support Files */,
 			);
-			name = NKAnyViewModel;
 			path = NKAnyViewModel;
 			sourceTree = "<group>";
 		};
@@ -423,7 +443,6 @@
 				F880087D45A768B12573B870E71D1E06 /* UICollectionView.swift */,
 				9ED609987B403B7C59888E392DA08AE4 /* Support Files */,
 			);
-			name = NKGridTemplate;
 			path = NKGridTemplate;
 			sourceTree = "<group>";
 		};
@@ -433,7 +452,6 @@
 				39D554FFD89CDD4843A7014910726FE3 /* AYCalendarSlidesPresenter.swift */,
 				805EE9E122890687666A226576A4249C /* AYCalendarSlidesViewController.swift */,
 			);
-			name = AYCalendarSlides;
 			path = AYCalendarSlides;
 			sourceTree = "<group>";
 		};
@@ -474,7 +492,6 @@
 				1EEF618CAB0923A4E091898D13767B5C /* NKSlidesViewController.swift */,
 				9CC74B00D83DCDA69A2135C53DAAF3D6 /* Support Files */,
 			);
-			name = NKSlideScreensTemplate;
 			path = NKSlideScreensTemplate;
 			sourceTree = "<group>";
 		};
@@ -512,6 +529,7 @@
 		CF8440148F951ACFE349BABAF633DC1C /* AYCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				40C0E15822FD592E00E446BB /* Assets */,
 				14C0A4BBF3889294E7370DCBEA827A86 /* Cells */,
 				42450ADB9822061AF0A475B4B9D52DDD /* Extensions */,
 				276D5376A8B7A059C3BAC23B292B3D19 /* Helpers */,
@@ -786,6 +804,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C0E15E22FD595400E446BB /* prev.png in Resources */,
+				40C0E15D22FD595400E446BB /* next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1281,8 +1301,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "AYCalendarViewController - is a customizable calendar view controller.",
   "description": "Customizable calendar view controller with navigation through the months.",
-  "homepage": "https://github.com/antonyereshchenko@gmail.com/AYCalendar",
+  "homepage": "https://github.com/bananaRanger/AYCalendar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
