@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AYCalendar.svg?style=flat)](https://cocoapods.org/pods/AYCalendar)
 
 <p align="center">
-  <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo.png?raw=true">
+  <img width="80%" height="80%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/logo_img.png?raw=true">
 </p>
 
 ## About
