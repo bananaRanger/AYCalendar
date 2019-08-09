@@ -36,8 +36,8 @@ public class AYMonthNavigationView: UIView, NibView {
     super.awakeFromNib()
     let bundle = Bundle(for: AYMonthNavigationView.self)
     
-    let imgNext = UIImage(named: "next.png", in: bundle, compatibleWith: nil)
-    let imgPrev = UIImage(named: "prev.png", in: bundle, compatibleWith: nil)
+    let imgNext = UIImage(named: "next", in: bundle, compatibleWith: nil)
+    let imgPrev = UIImage(named: "prev", in: bundle, compatibleWith: nil)
 
     btnNext.setImage(imgNext, for: .normal)
     btnPrev.setImage(imgPrev, for: .normal)

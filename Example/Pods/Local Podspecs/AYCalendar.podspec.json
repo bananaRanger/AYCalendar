@@ -1,6 +1,6 @@
 {
   "name": "AYCalendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "AYCalendarViewController - is a customizable calendar view controller.",
   "description": "Customizable calendar view controller with navigation through the months.",
   "homepage": "https://github.com/bananaRanger/AYCalendar",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/bananaRanger/AYCalendar.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"

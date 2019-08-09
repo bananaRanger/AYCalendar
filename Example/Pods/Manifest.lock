@@ -1,5 +1,5 @@
 PODS:
-  - AYCalendar (1.0.0):
+  - AYCalendar (1.0.1):
     - NKGridTemplate (~> 0.1.0.1)
     - NKSlideScreensTemplate (~> 0.1.0)
   - NKAnyViewModel (0.1.0.1)
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AYCalendar: 4771967ba1609d6fc7cebd09025b78ed97a47ea8
+  AYCalendar: 837b3a5a1bb91f8b955530c187a4cda449af3086
   NKAnyViewModel: 5c54426df9bc59178954907a811eca0f33cad211
   NKGridTemplate: 8e0f4dd42786289e97212ebf1122aedf26d8d6a0
   NKSlideScreensTemplate: 130d6c1dc6cb920afad1c19b95765e1246d5e417
