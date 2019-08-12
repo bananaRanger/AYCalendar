@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYCalendar'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'AYCalendarViewController - is a customizable calendar view controller.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
   s.swift_version  = '5.0'
 
   s.source_files = 'AYCalendar/Classes/**/*'
-  
+  s.resources = 'AYCalendar/Assets/Images/*'
+
   s.dependency 'NKGridTemplate', '~> 0.1.0.1'
   s.dependency 'NKSlideScreensTemplate', '~> 0.1.0'
 
