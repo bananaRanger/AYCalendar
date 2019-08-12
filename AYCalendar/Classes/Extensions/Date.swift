@@ -131,8 +131,10 @@ extension Date {
 }
 
 extension Date {
-  var pretty: String {
-    let name = DateFormatter().monthSymbols[month - 1]
+  func pretty(locale: Locale? = .current) -> String {
+    let dateFormatter = DateFormatter()
+    dateFormatter.locale = locale
+    let name = dateFormatter.monthSymbols[month - 1]
     return name.appending(" ").appending(String(year))
   }
 }

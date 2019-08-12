@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40DFBD4C2301416C00C4A0B9 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DFBD4A2301416C00C4A0B9 /* next.png */; };
-		40DFBD4D2301416C00C4A0B9 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DFBD4B2301416C00C4A0B9 /* prev.png */; };
 		600601A2AAA315A6AA45BE81 /* Pods_AYCalendar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3101D2A51862D8464588A82 /* Pods_AYCalendar_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,8 +28,6 @@
 
 /* Begin PBXFileReference section */
 		0F4465558C720775AE0B6B7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		40DFBD4A2301416C00C4A0B9 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = ../AYCalendar/Assets/Images/next.png; sourceTree = "<group>"; };
-		40DFBD4B2301416C00C4A0B9 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev.png; path = ../AYCalendar/Assets/Images/prev.png; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AYCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,8 +71,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				40DFBD4A2301416C00C4A0B9 /* next.png */,
-				40DFBD4B2301416C00C4A0B9 /* prev.png */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for AYCalendar */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -250,8 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DFBD4C2301416C00C4A0B9 /* next.png in Resources */,
-				40DFBD4D2301416C00C4A0B9 /* prev.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 			);

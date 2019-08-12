@@ -172,7 +172,7 @@ extension AYCalendarViewController: AYMonthCalendarDelegate {
   
   func calendarDidPresent(with date: Date?) {
     delegate?.didPresent(calendar: self, with: date)
-    monthNavigationView?.lblText.text = date?.pretty
+    monthNavigationView?.lblText.text = date?.pretty(locale: dataSource?.locale())
   }
 }
 
