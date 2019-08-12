@@ -134,8 +134,8 @@ extension Date {
   func pretty(locale: Locale? = .current) -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.locale = locale
-    let name = dateFormatter.monthSymbols[month - 1]
-    return name.appending(" ").appending(String(year))
+    let name = dateFormatter.standaloneMonthSymbols[month - 1]
+    return name.capitalized.appending(" ").appending(String(year))
   }
 }
 
