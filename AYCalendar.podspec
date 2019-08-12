@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.swift_version  = '5.0'
 
   s.source_files = 'AYCalendar/Classes/**/*'
-  s.resources = 'AYCalendar/Assets/Images/*'
+  s.resources = 'AYCalendar/Assets/**/*'
 
   s.dependency 'NKGridTemplate', '~> 0.1.0.1'
   s.dependency 'NKSlideScreensTemplate', '~> 0.1.0'

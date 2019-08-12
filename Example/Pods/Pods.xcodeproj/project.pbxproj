@@ -20,6 +20,8 @@
 		3BAD8054A2EEDD313783DEEBFF9D6092 /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253E569FE6623331C61C52573BD17EAF /* NKAnyViewModel.framework */; };
 		3D6ABEA1B5E98F24B9ED86B3E5091055 /* AYCalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C6C75CA8C4D41EDCBFF50FAE1225AF /* AYCalendarDataSource.swift */; };
 		3F9B75423D37D25E3A5D85A89F9C3296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE44E3D79F508ACD8BA716D9A2CB4E5 /* Foundation.framework */; };
+		40DFBD68230149F700C4A0B9 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DFBD66230149F700C4A0B9 /* next.png */; };
+		40DFBD69230149F700C4A0B9 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DFBD67230149F700C4A0B9 /* prev.png */; };
 		442AE14DDBD64DF9284D622BFEE43E2E /* AYMonthCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E8A7A642889D73362BEFD215A2F00 /* AYMonthCalendarViewController.swift */; };
 		52EC33F8D9C857D148A7AF26ADBAEFE1 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9697A27B32095C06870E4D57F19AA /* Delegates.swift */; };
 		618942625CE32CAAF552BC1E0A3A4627 /* AYCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578D8E656FEBAD61F8C0A9FBCF04ACCD /* AYCalendar-dummy.m */; };
@@ -146,6 +148,8 @@
 		39D554FFD89CDD4843A7014910726FE3 /* AYCalendarSlidesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCalendarSlidesPresenter.swift; sourceTree = "<group>"; };
 		3DB9ECDEE5C32A2708963D83C991B1F5 /* NKSlideScreensTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKSlideScreensTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3A6A0A88202C250E1D897C56D1732 /* NKGridViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKGridViewController.swift; path = NKGridTemplate/Classes/NKGridViewController.swift; sourceTree = "<group>"; };
+		40DFBD66230149F700C4A0B9 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		40DFBD67230149F700C4A0B9 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
 		44973FA7E3BABE6EA0F4406B04C2FDE6 /* NKAnyViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKAnyViewModel.xcconfig; sourceTree = "<group>"; };
 		4549718DF96FB63EB816EA9A5BB79C79 /* Pods-AYCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AD3D674489AF0298C5CB9FB62D84D04 /* AYCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCalendar-umbrella.h"; sourceTree = "<group>"; };
@@ -323,6 +327,24 @@
 			);
 			name = "Pods-AYCalendar_Tests";
 			path = "Target Support Files/Pods-AYCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		40DFBD64230149F700C4A0B9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				40DFBD65230149F700C4A0B9 /* Images */,
+			);
+			name = Assets;
+			path = AYCalendar/Assets;
+			sourceTree = "<group>";
+		};
+		40DFBD65230149F700C4A0B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40DFBD66230149F700C4A0B9 /* next.png */,
+				40DFBD67230149F700C4A0B9 /* prev.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		42450ADB9822061AF0A475B4B9D52DDD /* Extensions */ = {
@@ -506,6 +528,7 @@
 		CF8440148F951ACFE349BABAF633DC1C /* AYCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				40DFBD64230149F700C4A0B9 /* Assets */,
 				14C0A4BBF3889294E7370DCBEA827A86 /* Cells */,
 				42450ADB9822061AF0A475B4B9D52DDD /* Extensions */,
 				276D5376A8B7A059C3BAC23B292B3D19 /* Helpers */,
@@ -780,6 +803,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DFBD69230149F700C4A0B9 /* prev.png in Resources */,
+				40DFBD68230149F700C4A0B9 /* next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
