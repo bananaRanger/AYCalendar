@@ -1,6 +1,6 @@
 {
   "name": "AYCalendar",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "summary": "AYCalendarViewController - is a customizable calendar view controller.",
   "description": "Customizable calendar view controller with navigation through the months.",
   "homepage": "https://github.com/bananaRanger/AYCalendar",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/bananaRanger/AYCalendar.git",
-    "tag": "1.0.1"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "5.0",
   "source_files": "AYCalendar/Classes/**/*",
+  "resources": "AYCalendar/Assets/**/*",
   "dependencies": {
     "NKGridTemplate": [
       "~> 0.1.0.1"

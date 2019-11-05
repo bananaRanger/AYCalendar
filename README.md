@@ -22,9 +22,9 @@ Customizable calendar view controller with navigation through the months.
 ##### Demo video
 
 <p align="center">
-  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.mov?raw=true">
-  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo2.mov?raw=true">
-  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo3.mov?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo1.gif?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo2.gif?raw=true">
+  <img width="33%" height="33%" src="https://github.com/bananaRanger/AYCalendar/blob/master/Resources/demo3.gif?raw=true">
 </p>
 
 
