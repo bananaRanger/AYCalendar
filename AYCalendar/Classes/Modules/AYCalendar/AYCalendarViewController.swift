@@ -23,7 +23,7 @@
 import UIKit
 
 //MARK: AYCalendarViewController
-public class AYCalendarViewController: UIViewController {
+open class AYCalendarViewController: UIViewController {
   
   //MARK: - properies
   private var headerHeight: CGFloat {
@@ -55,7 +55,7 @@ public class AYCalendarViewController: UIViewController {
   }()
   
   //MARK: - methods
-  public override func viewDidLoad() {
+  open override func viewDidLoad() {
     super.viewDidLoad()
         
     view.backgroundColor = uiDelegate?.backgorundColor() ?? .white

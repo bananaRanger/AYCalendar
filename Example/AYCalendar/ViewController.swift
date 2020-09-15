@@ -23,36 +23,33 @@
 import UIKit
 import AYCalendar
 
-class ViewController: UIViewController {
+class ViewController: AYCalendarViewController {
   var cellBack = UIColor(red: 242.0/255.0, green: 163.0/255.0, blue: 181.0/255.0, alpha: 1.0)
   var cellText = UIColor(red: 237.0/255.0, green: 107.0/255.0, blue: 134.0/255.0, alpha: 1.0)
   var cellBadge = UIColor.white
+  
+  override func viewDidLoad() {
+    delegate = self
+    uiDelegate = self
+    dataSource = self
 
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    let calendar = AYCalendarViewController()
+    monthNavigationView?.backgroundColor = .black
+    monthNavigationView?.lblText.textColor = .white
+    monthNavigationView?.btnNext.backgroundColor = .white
+    monthNavigationView?.btnPrev.backgroundColor = .white
 
-    calendar.delegate = self
-    calendar.uiDelegate = self
-    calendar.dataSource = self
+    monthNavigationView?.layer.cornerRadius = 8
+    monthNavigationView?.layer.shadowRadius = 10
+    monthNavigationView?.layer.shadowOpacity = 0.32
+
+    calendarSlides.backgroundColor = .white
     
-    calendar.monthNavigationView?.backgroundColor = .black
-    calendar.monthNavigationView?.lblText.textColor = .white
-    calendar.monthNavigationView?.btnNext.backgroundColor = .white
-    calendar.monthNavigationView?.btnPrev.backgroundColor = .white
+    calendarSlides.layer.shadowColor = UIColor.white.cgColor
+    calendarSlides.layer.cornerRadius = 8
+    calendarSlides.layer.shadowRadius = 10
+    calendarSlides.layer.shadowOpacity = 0.25
     
-    calendar.monthNavigationView?.layer.cornerRadius = 8
-    calendar.monthNavigationView?.layer.shadowRadius = 10
-    calendar.monthNavigationView?.layer.shadowOpacity = 0.32
-    
-    calendar.calendarSlides.backgroundColor = .white
-    
-    calendar.calendarSlides.layer.shadowColor = UIColor.white.cgColor
-    calendar.calendarSlides.layer.cornerRadius = 8
-    calendar.calendarSlides.layer.shadowRadius = 10
-    calendar.calendarSlides.layer.shadowOpacity = 0.25
-    
-    present(calendar, animated: true, completion: nil)
+    super.viewDidLoad()
   }
 }
 
